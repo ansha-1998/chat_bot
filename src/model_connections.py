@@ -1,8 +1,6 @@
 import os
-from dotenv import load_dotenv
 from openai import OpenAI
 from mistralai import Mistral
-load_dotenv()
 from google import genai
 
 def open_ai_response(system_prompt,user_prompt):
